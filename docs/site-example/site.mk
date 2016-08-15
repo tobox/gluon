@@ -44,7 +44,7 @@ DEFAULT_GLUON_RELEASE := 0.6+exp$(shell date '+%Y%m%d')
 #		e.g.:
 #			$ make images GLUON_RELEASE=23.42+5
 #		would generate images named like this:
-#			gluon-ff%site_code%-23.42+5-%router_model%.bin
+#			gluon-%site_code%-23.42+5-%router_model%.bin
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
